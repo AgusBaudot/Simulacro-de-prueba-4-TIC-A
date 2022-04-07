@@ -141,10 +141,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8963647254c29304e806a91eee20f5cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  precio1: 3
-  precio2: 8
-  precio3: 15
-  montoTotal: 0
+  precio1: 100
+  precio2: 200
+  precio3: 300
+  montoTotal: 1000
 --- !u!4 &36626774
 Transform:
   m_ObjectHideFlags: 0

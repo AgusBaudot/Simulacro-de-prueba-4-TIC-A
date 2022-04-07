@@ -15,12 +15,17 @@ public class Ejercicio02Prueba : MonoBehaviour
         if (suma>montoTotal)
         {
             Debug.Log("Los productos superan el monto disponible");
+            int guita = suma - montoTotal;
+            Debug.Log("Faltan $" + guita);
         } else if (montoTotal>suma)
         {
             Debug.Log("Los productos no superan el monto disponible");
+            int guita = montoTotal - suma;
+            Debug.Log("Sobran $" + guita);
         } else if (montoTotal==suma)
         {
             Debug.Log("Los productos no superan el monto disponible");
+            Debug.Log("No sobra plata");
         }
     }
 
